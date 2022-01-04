@@ -1,8 +1,9 @@
 ﻿
+<# Optional to use this block; this can be used if you have an IAM role that you can assume
 Set-AWSCredential -AccessKey "" `
                   -SecretKey "" `
                   -SessionToken ""
-
+#>
 # Compile the list of IAM roles; uncomment to use, *be sure to comment line #10
 #$roleName = get-content -path "C:\<path_to>\Roles.txt"
 
