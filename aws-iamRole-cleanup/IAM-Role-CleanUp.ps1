@@ -1,5 +1,5 @@
 ﻿
-<# Optional to use this block; this can be used if you have an IAM role that you can assume
+<# Optional to use this block; this can be used if you would like to manually specify the IAM creds
 Set-AWSCredential -AccessKey "" `
                   -SecretKey "" `
                   -SessionToken ""
